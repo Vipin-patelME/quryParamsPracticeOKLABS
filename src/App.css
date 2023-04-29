@@ -36,3 +36,14 @@
     transform: rotate(360deg);
   }
 }
+.link-style{
+  height: 40px;
+  border-style: none;
+  background-color: green;
+  color: #fff;
+  border-radius: 8px;
+  width: 100px;
+  padding: 10px;
+  margin: 20px;
+  
+}
