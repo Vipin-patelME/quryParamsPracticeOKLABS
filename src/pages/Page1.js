@@ -2,7 +2,7 @@ import React from 'react'
 import {Link, useSearchParams } from 'react-router-dom'
 
 const Page1 = () => {
-  const [params, setParams] = useSearchParams()
+  const [params] = useSearchParams()
     const qparams = params.get("name")
   return (
     <div className='App'>
